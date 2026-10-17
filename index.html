@@ -21,22 +21,174 @@
     /* PAISAGENS */
     .landscapes{border-top:1px solid #302a2420}.landscape-grid{display:grid;grid-template-columns:1.35fr 1fr;grid-template-rows:230px 230px;gap:16px}.landscape-grid button{border:0;padding:0;background:transparent;border-radius:5px;overflow:hidden;cursor:zoom-in}.landscape-grid button:first-child{grid-row:span 2}.landscape-grid img{height:100%;width:100%;object-fit:cover;transition:transform .4s}.landscape-grid button:hover img{transform:scale(1.035)}.gallery-cta{text-align:center;margin-top:32px}
     /* FOOTER */
-    .footer{background:var(--escuro);color:var(--claro);padding:52px 0 24px}.footer-grid{display:grid;grid-template-columns:1.15fr .7fr 1fr;gap:60px}.footer-brand img{width:93px;height:100px;object-fit:contain;background:#fff;padding:6px;border-radius:3px;margin-bottom:18px}.footer-brand p{font-size:12px;max-width:245px;line-height:1.8}.footer h3{font-size:25px;margin:8px 0 19px}.footer-nav{display:flex;flex-direction:column;align-items:flex-start;gap:7px;font-size:12px}.footer-nav a:hover{text-decoration:underline}.contacts p{font-size:11px;margin-bottom:15px}.contact-button{width:100%;background:none;color:var(--claro);border:1px solid #d8cdbd60;border-radius:5px;padding:8px 14px;display:flex;align-items:center;gap:12px;font-size:12px;margin-top:9px}.contact-button[disabled]{cursor:default;opacity:.65}.contact-button small{margin-left:auto;font-size:9px}.footer-bottom{border-top:1px solid #d8cdbd35;margin-top:38px;padding-top:18px;display:flex;justify-content:space-between;gap:20px;font-size:10px}.footer-bottom p+p{margin:0}
+    .footer{background:var(--escuro);color:var(--claro);padding:52px 0 24px}.footer-grid{display:grid;grid-template-columns:1.15fr .7fr 1fr;gap:60px}.footer-brand img {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 18px;
+}.footer-brand p{font-size:12px;max-width:245px;line-height:1.8}.footer h3{font-size:25px;margin:8px 0 19px}.footer-nav{display:flex;flex-direction:column;align-items:flex-start;gap:7px;font-size:12px}.footer-nav a:hover{text-decoration:underline}.contacts p{font-size:11px;margin-bottom:15px}.contact-button{width:100%;background:none;color:var(--claro);border:1px solid #d8cdbd60;border-radius:5px;padding:8px 14px;display:flex;align-items:center;gap:12px;font-size:12px;margin-top:9px}.contact-button[disabled]{cursor:default;opacity:.65}.contact-button small{margin-left:auto;font-size:9px}.footer-bottom{border-top:1px solid #d8cdbd35;margin-top:38px;padding-top:18px;display:flex;justify-content:space-between;gap:20px;font-size:10px}.footer-bottom p+p{margin:0}
     /* GALERIA AMPLIADA — dialog nativo, teclado e gestos. */
     .lightbox{border:0;padding:0;background:#17231b;color:var(--claro);width:min(1200px,96vw);max-width:96vw;max-height:94svh;border-radius:6px}.lightbox::backdrop{background:rgba(9,15,11,.9)}.lightbox-top{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;font-size:12px}.close{background:none;color:var(--claro);border:1px solid #d8cdbd50;border-radius:50%;width:40px;height:40px;font-size:25px;line-height:1}.lightbox-stage{display:grid;grid-template-columns:60px 1fr 60px;align-items:center;padding:0 12px;gap:8px}.lightbox-stage img{width:100%;height:65svh;object-fit:contain}.lightbox .arrow{background:none;border-color:#d8cdbd60}.lightbox-caption{text-align:center;padding:18px 22px 24px;font-size:13px}
     @media(min-width:1600px){.hero h1{font-size:92px}.hero-content{padding-bottom:120px}}
     @media(max-width:900px){.container{width:calc(100% - 48px)}.intro{gap:40px}.intro figure img{height:460px}.landscape-grid{grid-template-rows:190px 190px}.footer-grid{gap:30px}.footer h3{font-size:22px}}
     @media(max-width:640px){:root{--header:64px}.container{width:calc(100% - 40px)}.section{padding:64px 0}.brand img{height:48px;width:50px}.menu-toggle{display:flex}.nav{display:none;position:absolute;left:0;right:0;top:64px;background:var(--bege);padding:22px 20px;box-shadow:0 14px 18px #302a2415;flex-direction:column;align-items:stretch;gap:12px}.nav.open{display:flex}.nav a{padding:9px}.hero{background-position:57% center;min-height:calc(100svh - 64px)}.hero:before{background:linear-gradient(90deg,#131b13b8,#131b1350),linear-gradient(0deg,#131b1340,transparent)}.hero h1{font-size:clamp(43px,12vw,66px);letter-spacing:-1.8px;max-width:400px}.hero .eyebrow{font-size:9px;letter-spacing:1.6px}.hero-content{padding:70px 0}.hero-note{display:none}.intro{grid-template-columns:1fr;gap:32px}.intro-copy{max-width:none}.intro h2{max-width:350px;letter-spacing:-1px}.intro figure img{height:auto;max-height:560px;object-fit:contain}.caption{font-size:10px}.section-heading{margin-bottom:28px}.section-heading h2{letter-spacing:-1px}.section-heading p{font-size:12px}.study-image{width:100%}.study-image img{height:330px}.carousel>.arrow{top:calc(330px / 2 - 20px);width:38px;height:38px;box-shadow:0 2px 10px #0002}.carousel>.prev{left:-10px}.carousel>.next{right:-10px}.study-image img{padding:0 24px}.study-caption{font-size:12px}.study-note{font-size:10px}.landscape-grid{grid-template-columns:1fr 1fr;grid-template-rows:270px 140px;gap:12px}.landscape-grid button:first-child{grid-row:1;grid-column:span 2}.footer{padding-top:40px}.footer-grid{grid-template-columns:1fr;gap:30px}.footer h3{margin-top:0}.footer-brand p{max-width:290px}.contacts{max-width:360px}.footer-bottom{flex-direction:column;gap:8px;margin-top:30px}.lightbox-stage{grid-template-columns:36px 1fr 36px;padding:0 5px;gap:0}.lightbox-stage img{height:60svh}.lightbox .arrow{width:34px;height:34px}.lightbox-top{padding:12px}.lightbox-caption{font-size:11px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before{transition:none!important}}
+  /* HEADER SOBRE A PAISAGEM */
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  background: transparent;
+border-bottom: none;
+  color: #F5F0E8;
+  z-index: 20;
+}
+
+.header-inner {
+  width: calc(100% - 64px);
+  max-width: 1440px;
+  gap: 32px;
+}
+
+.brand {
+  flex-shrink: 0;
+}
+
+.header .brand img {
+  width: auto;
+  height: 80px;
+  object-fit: contain;
+}
+
+.header .nav {
+  display: flex;
+  gap: 28px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .7px;
+  text-transform: uppercase;
+}
+
+.header .nav a {
+  padding: 10px 0;
+  border: 0;
+  color: #F5F0E8;
+  transition: color .2s, background .2s;
+}
+
+.header .nav a:hover {
+  color: #D8CDBD;
+}
+
+.header .nav .nav-cta {
+  padding: 13px 24px;
+  border-radius: 999px;
+  background: #F5F0E8;
+  color: #263A2D;
+  text-align: center;
+}
+
+.header .nav .nav-cta:hover {
+  background: #D8CDBD;
+  color: #263A2D;
+}
+
+/* A imagem agora começa no topo, atrás do header. */
+.hero {
+  min-height: 100svh;
+}
+
+.hero-content {
+  padding-top: 170px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 900px) {
+  .header-inner {
+    width: calc(100% - 40px);
+  }
+
+  .header .nav {
+    gap: 16px;
+    font-size: 11px;
+  }
+
+  .header .nav .nav-cta {
+    padding: 12px 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    height: 88px;
+  }
+
+  .header .brand img {
+    height: 74px;
+    width: auto;
+  }
+
+  .header .menu-toggle {
+    display: flex;
+    color: #F5F0E8;
+    border-color: rgba(245, 240, 232, .6);
+    background: rgba(15, 24, 18, .3);
+  }
+
+  .header .nav {
+    display: none;
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: #263A2D;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    max-height: calc(100svh - 88px);
+    overflow-y: auto;
+  }
+
+  .header .nav.open {
+    display: flex;
+  }
+
+  .header .nav a {
+    padding: 12px;
+  }
+
+  .hero {
+    min-height: 100svh;
+  }
+
+  .hero-content {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
+}
   </style>
 </head>
 <body>
   <a class="skip" href="#projeto">Pular para o conteúdo</a>
   <header class="header">
     <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Chalés Pavão — início"><img src="imagens/logo.jpg" alt="Chalés Pavão" width="63" height="60"></a>
+      <a class="brand" href="#inicio" aria-label="Chalés Pavão — início">
+  <img src="imagens/logo-horizontal.png" alt="Chalés Pavão">
+</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navegacao" aria-label="Abrir menu">☰</button>
-      <nav id="navegacao" class="nav" aria-label="Navegação principal"><a href="#projeto">O projeto</a><a href="#paisagens">A paisagem</a><a href="#contato">Contato</a></nav>
+     <nav id="navegacao" class="nav" aria-label="Navegação principal">
+  <a href="#projeto">O projeto</a>
+  <a href="#estudos">Os estudos</a>
+  <a href="#paisagens">Paisagens</a>
+  <a href="#contato">Contato</a>
+  <a class="nav-cta" href="#contato">Acompanhe o projeto</a>
+</nav>
     </div>
   </header>
   <main>
@@ -67,7 +219,9 @@
       </div>
     </section>
   </main>
-  <footer id="contato" class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="#inicio" aria-label="Chalés Pavão — início"><img src="imagens/logo.jpg" alt="Chalés Pavão" width="93" height="100" loading="lazy"></a><p>Um futuro refúgio nas montanhas de Minas, feito para desacelerar e se conectar com a natureza.</p></div><div><h3>Explore</h3><nav class="footer-nav" aria-label="Navegação do rodapé"><a href="#inicio">Início</a><a href="#projeto">O projeto</a><a href="#paisagens">Paisagens</a></nav></div><div class="contacts"><h3>Acompanhe os<br>próximos passos</h3><p>Nossos canais serão divulgados em breve.</p><div id="contact-links"><button class="contact-button" type="button" disabled><span aria-hidden="true">◎</span> Instagram <small>Em breve</small></button><button class="contact-button" type="button" disabled><span aria-hidden="true">↗</span> WhatsApp <small>Em breve</small></button></div></div></div><div class="footer-bottom"><p>Projeto em desenvolvimento · Construção ainda não iniciada</p></div></div></footer>
+  <footer id="contato" class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="#inicio" aria-label="Chalés Pavão — início"><img src="imagens/logo-footer.png"
+     alt="Chalés Pavão"
+     loading="lazy"></a><p>Um futuro refúgio nas montanhas de Minas, feito para desacelerar e se conectar com a natureza.</p></div><div><h3>Explore</h3><nav class="footer-nav" aria-label="Navegação do rodapé"><a href="#inicio">Início</a><a href="#projeto">O projeto</a><a href="#paisagens">Paisagens</a></nav></div><div class="contacts"><h3>Acompanhe os<br>próximos passos</h3><p>Nossos canais serão divulgados em breve.</p><div id="contact-links"><button class="contact-button" type="button" disabled><span aria-hidden="true">◎</span> Instagram <small>Em breve</small></button><button class="contact-button" type="button" disabled><span aria-hidden="true">↗</span> WhatsApp <small>Em breve</small></button></div></div></div><div class="footer-bottom"><p>Projeto em desenvolvimento · Construção ainda não iniciada</p></div></div></footer>
   <dialog class="lightbox" aria-label="Galeria ampliada"><div class="lightbox-top"><span id="lightbox-count"></span><button class="close" type="button" aria-label="Fechar galeria">×</button></div><div class="lightbox-stage"><button class="arrow lightbox-prev" type="button" aria-label="Imagem anterior">‹</button><img id="lightbox-img" alt=""><button class="arrow lightbox-next" type="button" aria-label="Próxima imagem">›</button></div><p id="lightbox-caption" class="lightbox-caption" aria-live="polite"></p></dialog>
   <script>
     'use strict';
