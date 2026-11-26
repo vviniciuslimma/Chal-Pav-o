@@ -12,7 +12,7 @@ const paisagens = [
   {src:'imagens/novembro-2026/montanhas.webp',label:'As montanhas · Fotografia real',alt:'Montanhas e colinas verdes'},
   {src:'imagens/novembro-2026/borboleta.webp',label:'Os pequenos encontros · Fotografia real',alt:'Borboleta sobre uma flor'},
   {src:'imagens/novembro-2026/frutos.webp',label:'Os detalhes do lugar · Fotografia real',alt:'Frutos na árvore'},
-  {src:'imagens/novembro-2026/neblina.webp',label:'A serra na neblina · Fotografia real',alt:'Paisagem da serra com neblina'},
+  {src:'imagens/Paiagem 1.jpg',label:'A serra na neblina · Fotografia real',alt:'Paisagem da serra com neblina'},
   ...[2,3,4,5,6,7].map(n=>({src:`imagens/paisagem-galeria-0${n}.jpg`,label:'Paisagem de Minas · Fotografia real',alt:`Vista das montanhas e da natureza, fotografia ${n}`}))
 ];
 const obra = [
